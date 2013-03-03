@@ -1,0 +1,16 @@
+p('63.83.78.162 - - [16/Aug/2000:04:14:46 -0600] "GET /Palladium.html HTTP/1.0" 200 6598 "Mozilla/4.73 [en] (Win98; U)" "http://search.webring.org/cgi-bin/hubsearch?ring=palladium;sid=;ringsearch"');
+p('63.83.78.162 - - [16/Aug/2000:04:15:02 -0600] "GET /Palladium.html HTTP/1.0" 200 6598 "Mozilla/4.73 [en] (Win98; U)" "-"');
+p('63.83.78.162 - - [16/Aug/2000:04:15:03 -0600] "GET /Palladium.html HTTP/1.0" 200 6598 "Mozilla/4.73 [en] (Win98; U)" "-"');
+p('199.105.88.100 - - [16/Aug/2000:09:44:54 -0600] "GET /StarWars.html HTTP/1.0" 200 9610 "Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)" "-"');
+p('199.105.88.100 - - [16/Aug/2000:09:45:07 -0600] "GET /SWRPG.html HTTP/1.0" 200 4487 "Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)" "-"');
+p('199.105.88.100 - - [16/Aug/2000:09:50:50 -0600] "GET /MSWAI01.html HTTP/1.0" 200 2447 "Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)" "-"');
+p('209.115.109.113 - - [16/Aug/2000:10:11:46 -0600] "GET /Palladium.html HTTP/1.1" 200 6598 "Mozilla/4.0 (compatible; MSIE 4.01; Windows 98)" "http://nav.webring.org/hub?ring=palladium&page=3;list"');
+p('208.53.74.130 - - [16/Aug/2000:10:35:57 -0600] "GET /Palladium.html HTTP/1.0" 200 6598 "Mozilla/4.73 [en] (Win98; U)" "http://search.webring.org/cgi-bin/hubsearch?ring=palladium;sid=;ringsearch"');
+p('192.11.223.102 - - [16/Aug/2000:10:37:12 -0600] "GET /StarWars.html HTTP/1.0" 200 9610 "Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)" "-"');
+p('200.46.85.17 - - [16/Aug/2000:14:49:07 -0600] "GET /StarWars.html HTTP/1.1" 200 9610 "Mozilla/4.0 (compatible; MSIE 4.01; Windows 98)" "http://www.rpgarchive.com/index.php?page=link&sysid=20&title=Star%20Wars"');
+p('142.177.215.123 - - [16/Aug/2000:18:11:17 -0600] "GET /StarWars.html HTTP/1.0" 200 9610 "Mozilla/4.61 [en] (Win98; I)" "http://www.rpgarchive.com/index.php?page=link&sysid=20&title=Star%20Wars"');
+p('142.177.215.123 - - [16/Aug/2000:18:13:17 -0600] "GET /StarWars.html HTTP/1.0" 200 9610 "Mozilla/4.61 [en] (Win98; I)" "http://www.rpgarchive.com/index.php?page=link&sysid=20&title=Star%20Wars"');
+p('142.177.215.123 - - [16/Aug/2000:18:13:30 -0600] "GET /SWRPG.html HTTP/1.0" 200 4487 "Mozilla/4.61 [en] (Win98; I)" "http://jrogue.8m.com/StarWars.html"');
+p('142.177.215.123 - - [16/Aug/2000:18:14:12 -0600] "GET /stats01.html HTTP/1.0" 200 4330 "Mozilla/4.61 [en] (Win98; I)" "http://216.33.20.4/yt/SW/Stories.html"');
+p('142.177.215.123 - - [16/Aug/2000:18:14:30 -0600] "GET /stats01.html HTTP/1.0" 200 4330 "Mozilla/4.61 [en] (Win98; I)" "http://216.33.20.4/yt/SW/Stories.html"');
+p('142.177.215.123 - - [16/Aug/2000:18:14:44 -0600] "GET /stats01.html HTTP/1.0" 200 4330 "Mozilla/4.61 [en] (Win98; I)" "http://216.33.20.4/yt/SW/Stories.html"');

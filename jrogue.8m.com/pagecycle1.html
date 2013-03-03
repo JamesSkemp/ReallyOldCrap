@@ -1,0 +1,33 @@
+<html><head><title></title>
+<META HTTP-EQUIV="REFRESH" CONTENT="10; URL=pagecycle2.html">
+<script language="JavaScript">
+startday = new Date();
+clockStart = startday.getTime();
+
+function initStopwatch() 
+{ 
+ var myTime = new Date(); 
+        var timeNow = myTime.getTime();  
+        var timeDiff = timeNow - clockStart; 
+        this.diffSecs = timeDiff/1000; 
+        return(this.diffSecs); 
+} 
+
+function getSecs() 
+{ 
+        var mySecs = initStopwatch(); 
+        var mySecs1 = ""+mySecs; 
+        mySecs1= mySecs1.substring(0,mySecs1.indexOf(".")) + " secs."; 
+        document.form1.timespent.value = mySecs1 
+        window.setTimeout('getSecs()',1000); 
+}
+
+</script>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" onLoad="window.setTimeout('getSecs()',1)">
+<center>
+This page will change in 10 seconds:
+<form name=form1><input size=9 name=timespent></form>
+</center></body></html>

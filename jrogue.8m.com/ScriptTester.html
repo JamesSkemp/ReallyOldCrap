@@ -1,0 +1,74 @@
+<html><head>
+<meta name="author" content="GERPER">
+<META NAME="description" content="Something that I picked up.  Tests a webpage (just type in the HTML, and test it).">
+<meta name="keywords" content="jrogue html script test page">
+<title>Script Tester</title>
+<script language="JavaScript">
+//Script Tester Version 1.00
+//Made by GERPER
+//You may use this script as long as you leave this piece here
+//and do not modify it.
+//Made on the 14th of the 12, 98.
+<!-- Hide Script From Old Browsers
+
+function trestart(){
+   if (script) {
+   clear = confirm("Are you sure? Ok=Yes, Cancel=No",'');
+   if(clear) {
+   document.script.reset();
+   document.script.value = "";
+  }
+ }
+}       
+
+function test(){
+  {
+  temp = document.script.tester.value;
+  testwin= open("", "testwin","status=no,menubar=yes,toolbar=no");
+  testwin.document.open();
+  testwin.document.write(temp);
+  testwin.document.close();
+ }
+}
+
+function about(){
+ alert("Script Tester Version 1.00. Copyright 1998 GERPER.")
+ alert("Visit http://www.geocities.com/TimesSquare/Labyrinth/3113/Javascript/Tester/ for the latest edition.")
+}
+
+function help(){ 
+ OpenWindow=window.open("", "newwin", "height=420,width=470,toolbar=no,scrollbars="+scroll+",menubar=no");
+ OpenWindow.document.write("<body bgcolor='white' text='black' alink='blue' vlink='blue' link='blue'><TITLE>Script Tester Help</TITLE>")
+ OpenWindow.document.write("<center><font size=+1>Script Tester Help</font></center><br>")
+ OpenWindow.document.write("<center>To use my Script Tester write the script in the text box. To view what the script in the text box does press the Test button. This opens another window with the script working in it.</center><br>")
+ OpenWindow.document.write("<center>To save the work you have done press the Test button. In window with the working script go to the file menu then save as... then save the file.</center><br>")
+ OpenWindow.document.write("<center>The Test button shows you the working script in another window. The Clear button (which does not work in netscape) clears the text box. The About button tells you about my Script Tester. The Help button brings up this help window.</center><br>")
+ OpenWindow.document.write("<center>It was made for making javascripts without having to rename .txt and .html files alot, but can be used for any script for a web browser. For the lastest updates go to the <a href='http://www.geocities.com/TimesSquare/Labyrinth/3113/Javascript/Tester/' target='main'>Script Tester Homepage</a>.</center><br>")
+ OpenWindow.document.write("<center><a href='mailto:gerper@hotmail.com' target='main'>Email me</a></Center><br>")
+ OpenWindow.document.write("<center><a href='javascript:close()'>Close this window</a></Center>")
+ OpenWindow.document.close()
+ self.name="main"
+}
+
+End hiding-->
+</script></head>
+<body bgcolor="white" text="black" alink="blue" vlink="blue" link="blue">
+<center><font size="6">Script Tester</font></center>
+<br>
+<center>To use Script Tester, write the
+script in the text box below. Then press then test button to open
+a new window with the final product of your script in it. For more help press the help button. Please note that the Clear button doesn't work in Netscape.</center>
+<form name="script">
+<center><textarea name="tester" rows="8" cols="50" wrap="off"></textarea></center>
+<br>
+<center>
+<input type="button" value=" Test " onClick="test()">&nbsp;&nbsp;
+<input type="button" value=" Clear " onClick="trestart()">&nbsp;&nbsp;
+<input type="button" value=" About " onClick="about()">&nbsp;&nbsp;
+<input type="button" value=" Help " onClick="help()">
+</center>
+</form>
+<br>
+<center><font size="2"><a href="mailto:gerper@hotmail.com">Copyright 1998 GERPER.</a><br>
+<a href="http://www.geocities.com/TimesSquare/Labyrinth/3113/">http://www.geocities.com/TimesSquare/Labyrinth/3113/</a></font></center>
+</body></html>

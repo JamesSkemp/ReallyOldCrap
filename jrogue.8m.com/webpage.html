@@ -1,0 +1,178 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<!--show_popup_ad-->
+<HTML><HEAD><TITLE>A Guide to HTML - By James R Skemp</TITLE>
+<META HTTP-EQUIV="CONTENT-LANGUAGE" CONTENT="English">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=iso-8859-1">
+<META HTTP-EQUIV="EXPIRES" CONTENT="">
+<META HTTP-EQUIV="Pragma" Content="no-cache">
+<META HTTP-EQUIV="Reply-to" CONTENT="jrogue02@naboomail.com">
+<META HTTP-EQUIV="VW96.OBJECT TYPE" CONTENT="Document">
+<META NAME="AUTHOR" CONTENT="James Richard Skemp III">
+<META NAME="Copyright" CONTENT="Copyright 2000 James R Skemp III">
+<META NAME="DESCRIPTION" CONTENT="A guide to HTML.">
+<META NAME="DISTRIBUTION" CONTENT="Global">
+<META NAME="Generator" CONTENT="Notepad">
+<META NAME="Keywords" CONTENT="jrogue guide html help web internet">
+<META NAME="OWNER" CONTENT="jrogue02@naboomail.com">
+<META NAME="RATING" CONTENT="General">
+<META NAME="RESOURCE-TYPE" CONTENT="document">
+<META NAME="REVISIT-AFTER" CONTENT="4 weeks">
+<META NAME="ROBOTS" CONTENT="index,follow">
+<SCRIPT language="JavaScript">
+function sendUrl() {
+window.location.href = document.form1.go.options[document.form1.go.selectedIndex].value;
+}
+</SCRIPT><STYLE>
+a {text-decoration:none}
+b {color:FF00FF}
+</STYLE></HEAD>
+<BODY BGCOLOR=#000000 TEXT=#0000FF LINK=#0000EE VLINK=#0000EE ALINK=#0000EE>
+<h1 align="center">HTML</h1>
+<h3 align="center">Or</h3>
+<h1 align="center">Webpage basics</h1>
+<h5 align="center"><a href="main.html">Main Page</a> | <a href="books.html">Books</a> | <a href="email.html">Email</a> | <a href="webpage.html">HTML</a>| <a href="bio.html">Life history</a> | <a href="links.html">Links</a> | <a href="music.html">Music</a> | <a href="photos.html">Photo Album</a> | <a href="school.html">School</a></h5>
+<HR>
+So, you want a really cool website, huh?  Well, you know all about HTML, right?  If you answered no, well, I have some good news, and some bad.<br>
+<dl>
+<dt>Good news
+<dd>With all the various providers out there, you really don't need to know HTML.  Knowing some of the tags however would really help.
+<dt>Bad news
+<dd>If you don't have knowledge of HTML, then getting your page exactly how you want it might be pretty hard.  However, even knowing HTML might not net the results you want.  Other languages (JavaScript, Java, etc...) can be used to make your site just how you want it, a message to your viewers.  You can tell the world, or at least your friends, more about you, and your interests.
+</dl>
+So, if you want to learn more about HTML, I can help you.  I can provide you with a bit of knowledge that will help you develop your own webpage.  Whether you are a starter, or have made a few pages.<hr>
+<h2>Part One : What you need</h2>
+So, what do you need to write HTML?  Well, at the very least, Notepad for windows.  Found at : C:\WINDOWS\NOTEPAD.EXE, or if you are using Windows 95/98 click Start -> Programs -> Accessories -> Notepad.  Almost any word processing program will fit your needs, however I, and many other writers, prefer to use Notepad (as you must know HTML tags [signified by <....>, where .... is text] to use only this program for editing).<br>
+And that, is pretty much all you need.  There are programs out there (FrontPage, Trellix, and many others) that will do most of the work for you.  In other words, no HTML knowledge is needed.  However, they can cost big bucks.  That's why I learned the Notepad way, since it is relatively inexpensive, and most of the info you need can be found on the web.<br>
+<h2>Part Two : Starting your document</h2>
+<FORM>
+<TEXTAREA NAME="TEXT" ROWS="10" COLS="50">
+<HTML>
+<HEAD>
+<TITLE>
+</TITLE>
+</HEAD>
+<BODY>
+
+</BODY>
+</HTML>
+</TEXTAREA></FORM>
+There it is, all the stuff you need to start a page.  What does it all mean?  Glad you asked.
+<FORM>
+<TEXTAREA NAME="TEXT" ROWS="9" COLS="74" WRAP="VIRTUAL">
+<HTML>    <-- signifies the start of a hypertext markup language document
+<HEAD>    <-- signifies the start of the head
+<TITLE>   <-- start of title
+</TITLE>  <-- end of title
+</HEAD>   <-- end of head
+<BODY>    <-- start of body
+</BODY>   <-- end of body
+</HTML>   <-- signifies the end of the HTML document
+</TEXTAREA></FORM>
+All HTML documents must at least have the above tags in order to properly work.<br>
+If you want, you can go ahead and copy the above text (select it all, and Ctrl+C).  Then start notepad, or word processor and paste the text there.  Then Save the document.  Type in 'test.html', minus the '.  Try to save it to the desktop, or another easy to find place.  Start up your browser, or if it is already open, open a new browser window (Ctrl+N on IE and Netscape, IIRC).  Go to File and open page, and browse to 'test.html'.  Open it.  You should have a blank document.  Now, go back to test.html (with Notepad/processor) and right after the BODY tag, press enter, then enter your name.
+<FORM>
+<TEXTAREA NAME="TEXT" ROWS="10" COLS="50">
+<HTML>
+<HEAD>
+<TITLE>
+</TITLE>
+</HEAD>
+<BODY>
+James Skemp
+</BODY>
+</HTML>
+</TEXTAREA></FORM>
+Like above.  Save the document (Ctrl+S on most programs) then go back to the browser.  Refresh/reload the page.  You should have a document with a white background and your name in the top left corner.  The BODY tag, as you can see, is used to signify the beginning, and end, of the main body.<BR>
+Okay, now, go back to the processor, and hit return after the first (or opening) TITLE tag.  Then type in 'My First HTML document', without the '.<BR>
+<FORM>
+<TEXTAREA NAME="TEXT" ROWS="11" COLS="50">
+<HTML>
+<HEAD>
+<TITLE>
+My First HTML document
+</TITLE>
+</HEAD>
+<BODY>
+James Skemp
+</BODY>
+</HTML>
+</TEXTAREA></FORM>
+Like above.  Once again, save the file and reload the page on your browser.  You should see the samething you saw before, except now on the top of the browser page, it should say My First HTML document.  Therefore, the TITLE tag is used to signify the beginning and end of the title of your page.<BR>
+Now, we are going to learn more about the BODY tags.
+<h2>Part Three : The BODY tags expanded</h2>
+As you know, the BODY tags signify the beginning and end of the body.  Anything you type between them, will show up as the main body of your page.  Now, using the example above, press the enter key type in something, then press enter again a type in something else.  Save, and return to your browser.  See what you have?  All the text should be on one line.  Well, how do you fix that?  Good question.  There are tags, that have the express purpose of altering the body text.  Go back to your document, and change it to this.
+<FORM>
+<TEXTAREA NAME="TEXT" ROWS="13" COLS="50">
+<HTML>
+<HEAD>
+<TITLE>
+My First HTML document
+</TITLE>
+</HEAD>
+<BODY>
+Your name<BR>
+Text typed here<BR>
+More text typed here
+</BODY>
+</HTML>
+</TEXTAREA></FORM>
+Whether or not there is a hard return, it doesn't matter.  You'll get the same effect.  What you ask?  Well try it out.  Save and refresh the browser.  Neat huh?  Want bold? Italic? Underline?  Here you go!
+<FORM>
+<TEXTAREA NAME="TEXT" ROWS="13" COLS="62">
+<!-- any text entered like such, will not show on your page-->
+<BR>        <!-- Break -->
+<B></B>     <!-- Bold -->
+<U></U>     <!-- Underline -->
+<I></I>     <!-- Italic -->
+<HR>        <!-- Hard return, draws straight line -->
+<H1></H1>   <!-- Headline, where 1 can be any # 1-6 -->
+</TEXTAREA></FORM>
+Note: Some tags (break tag for example) don't need closing tags.<BR>
+
+*****
+
+<H5 ALIGN="right">
+<HR><form name="form1"><select name="go">
+<option value="main.html">Main Page</option>
+<option value="books.html">Books</option>
+<option value="bio.html">Life history</option>
+<option value="music.html">Music</option>
+<option value="photos.html">Photo Album</option>
+<option value="email.html">Email</option>
+<option value="links.html">Links</option>
+<option value="school.html">School</option>
+<option value="webpage.html" SELECTED>HTML</option>
+</select><input type="button" value="Go" onClick="sendUrl(this.form)"><br>
+<img src="notepad2.gif" width="114" height="43" alt="This page was created with Notepad."><br>
+<!-- Easycounter -->
+<!-- Honesty -->
+<font color=#cc00cc>This page was last updated on:
+<SCRIPT LANGUAGE="JavaScript">
+document.write("" +document.lastModified+ "")
+document.close()
+</SCRIPT><BR>
+<SCRIPT LANGUAGE="JavaScript"><!--
+  expireDate=new Date(); //create variable to store the current date.
+  expireDate.setDate(expireDate.getDate()+7); //set the value to seven days from now
+  hits=eval(cookieVal("pagevisits")); //call function to split off pagevisits name and its value
+  hits++; //increment the value
+  document.cookie="pagevisits="+hits+";expires="+expireDate.toGMTString()
+  //store the new value and the expiration date back into the cookie (or for the first time)
+  function cookieVal(cookieName){ //function breaks the cookie into name and value pairs
+    thisCookie=document.cookie.split("; "); //semi-colon is the delimiter seperating fields
+    for(i=0; i<thisCookie.length; i++){ //loop through the entire length of the cookie string
+      if(cookieName==thisCookie[i].split("=")[0]){ //check for the value we passed in the function call
+        return thisCookie[i].split("=")[1]; //if the value matches then send back what follows the = sign
+      }
+    }
+    return 0;
+  }
+  if (hits>2){
+    document.open()
+    document.write("Thanks for contributing "+hits+" hits.");
+    document.close()
+    //do something the visitor can see
+
+  }
+//--></SCRIPT>
+</font></H5></BODY></HTML>

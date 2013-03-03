@@ -1,0 +1,18 @@
+p('12.24.232.114 - - [22/Aug/2000:03:28:40 -0600] "GET /StarWarsLinks.html HTTP/1.0" 200 18395 "Mozilla/4.0 (compatible; MSIE 5.0; Windows 95; DigExt)" "http://www.egroups.com/links/SwStatS"');
+p('208.11.142.20 - - [22/Aug/2000:10:45:36 -0600] "GET /mainframe.html HTTP/1.0" 200 7273 "Mozilla/4.06 [en] (Watson/4.0 http://watson.addy.com)libwww-perl/5.43" "-"');
+p('208.11.142.20 - - [22/Aug/2000:10:45:55 -0600] "HEAD /StarWars.html HTTP/1.0" 200 9610 "Mozilla/4.06 [en] (Watson/4.0 http://watson.addy.com)libwww-perl/5.43" "-"');
+p('208.11.142.20 - - [22/Aug/2000:10:45:56 -0600] "HEAD /Palladium.html HTTP/1.0" 200 6598 "Mozilla/4.06 [en] (Watson/4.0 http://watson.addy.com)libwww-perl/5.43" "-"');
+p('208.11.142.20 - - [22/Aug/2000:10:45:56 -0600] "HEAD /SearchEngine.html HTTP/1.0" 200 1836 "Mozilla/4.06 [en] (Watson/4.0 http://watson.addy.com)libwww-perl/5.43" "-"');
+p('208.11.142.20 - - [22/Aug/2000:10:45:56 -0600] "HEAD /Links1.html HTTP/1.0" 200 2323 "Mozilla/4.06 [en] (Watson/4.0 http://watson.addy.com)libwww-perl/5.43" "-"');
+p('208.11.142.20 - - [22/Aug/2000:10:45:57 -0600] "HEAD /Links2.html HTTP/1.0" 200 1861 "Mozilla/4.06 [en] (Watson/4.0 http://watson.addy.com)libwww-perl/5.43" "-"');
+p('208.11.142.20 - - [22/Aug/2000:10:45:57 -0600] "HEAD /Links3.html HTTP/1.0" 200 1863 "Mozilla/4.06 [en] (Watson/4.0 http://watson.addy.com)libwww-perl/5.43" "-"');
+p('208.11.142.20 - - [22/Aug/2000:10:45:58 -0600] "HEAD /Links4.html HTTP/1.0" 200 1862 "Mozilla/4.06 [en] (Watson/4.0 http://watson.addy.com)libwww-perl/5.43" "-"');
+p('208.11.142.20 - - [22/Aug/2000:10:45:58 -0600] "HEAD /Links5.html HTTP/1.0" 200 1868 "Mozilla/4.06 [en] (Watson/4.0 http://watson.addy.com)libwww-perl/5.43" "-"');
+p('208.11.142.20 - - [22/Aug/2000:10:45:59 -0600] "HEAD /myinfo.html HTTP/1.0" 200 5614 "Mozilla/4.06 [en] (Watson/4.0 http://watson.addy.com)libwww-perl/5.43" "-"');
+p('208.11.142.20 - - [22/Aug/2000:10:45:59 -0600] "HEAD /RPGInfo.html HTTP/1.0" 200 10826 "Mozilla/4.06 [en] (Watson/4.0 http://watson.addy.com)libwww-perl/5.43" "-"');
+p('128.177.243.207 - - [22/Aug/2000:11:04:21 -0600] "GET /main.html HTTP/1.0" 200 2256 "Scooter/1.0" "-"');
+p('128.177.243.207 - - [22/Aug/2000:11:04:23 -0600] "GET /main.html HTTP/1.0" 200 2256 "Scooter/1.0" "-"');
+p('206.79.171.81 - - [22/Aug/2000:11:04:24 -0600] "GET /main.html HTTP/1.0" 200 2256 "Lycos_Spider_(T-Rex)" "-"');
+p('166.62.37.22 - - [22/Aug/2000:11:13:34 -0600] "GET /StarWarsLinks.html HTTP/1.1" 200 18395 "Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)" "http://www.egroups.com/links/SwStatS"');
+p('208.11.142.20 - - [22/Aug/2000:11:14:21 -0600] "GET /StarWarsLinks.html HTTP/1.0" 200 18395 "Mozilla/4.06 [en] (Watson/4.0 http://watson.addy.com)libwww-perl/5.43" "-"');
+p('208.11.142.20 - - [22/Aug/2000:11:15:48 -0600] "GET /StarWarsLinks.html HTTP/1.0" 200 18395 "Mozilla/4.06 [en] (Watson/4.0 http://watson.addy.com)libwww-perl/5.43" "-"');
